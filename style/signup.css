@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: url('../images/fantasy-2049567_1280.jpg') no-repeat; 
+   background-size: cover;
+   color:#fff;
+
+
+}
+
+.signup-box{
+    position: relative;
+
+    width: 400px;
+    backdrop-filter:blur(20px) ;
+   box-shadow: rgba(0, 0 , 0 ,.2);
+   padding: 50px;
+}
+.signup-box h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+
+
+}
+.signup-box p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.signup-box input{
+    font-size:15px ;
+    padding:  10px;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+.signup-box button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 10px;
+    background: #fff;
+}
+.signup-box button:hover{
+    color: red;
+}
+
+.signup-box form .login{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.signup-box form a{
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.signup-box a:hover{
+    text-decoration: underline;
+}
